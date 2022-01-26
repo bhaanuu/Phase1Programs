@@ -22,10 +22,10 @@ public class Calculator {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		Calculator c = new Calculator();
-		System.out.println(c.Add(a,b));
-		System.out.println(c.Subtraction(a,b));
-		System.out.println(c.Multiply(a,b));
-		System.out.println(c.Division(a,b));
+		System.out.println("Addition:"+c.Add(a,b));
+		System.out.println("Subtraction"+c.Subtraction(a,b));
+		System.out.println("Multiply"+c.Multiply(a,b));
+		System.out.println("Division"+c.Division(a,b));
 		
 	}
 
