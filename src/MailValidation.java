@@ -8,11 +8,13 @@ public class MailValidation {
 
 	public static void main(String[] args) 
 	{
-		Scanner sc =  new Scanner(System.in);
 		System.out.println("Enter input");
+		
+		Scanner sc =  new Scanner(System.in);
+		String input = sc.nextLine();
+		
 		String str[]= {"duggana@gmail.com","bhanu@gmail.com","Me@gmail.com"};
 		
-		String input = sc.nextLine();
 		int c=0;
 		
 	    for(int i=0; i<=2;i++)
