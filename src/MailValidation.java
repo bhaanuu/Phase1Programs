@@ -14,10 +14,11 @@ public class MailValidation {
 		String input = sc.nextLine();
 		
 		String str[]= {"duggana@gmail.com","bhanu@gmail.com","Me@gmail.com"};
+   
 		
 		int c=0;
 		
-	    for(int i=0; i<=2;i++)
+	    for(int i=0; i< str.length ;i++)
 	    {
 		Pattern pattern = Pattern.compile(str[i]);
 		Matcher match = pattern.matcher(input);
@@ -26,9 +27,10 @@ public class MailValidation {
 			break;
 		else
 			c++;
+
 		}
 	    
-	    if(c<=2)
+	    if(c<str.length)
 	    	System.out.println("valid");
 	    else
 	    	System.out.println("invalid");
