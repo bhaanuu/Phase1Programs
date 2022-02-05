@@ -12,9 +12,9 @@ public class Arrays
 		
 		int[][] b= {{10,20,30},{40,50,60}};
 
-		for(int k=0;k<b.length;k++)
-			for(int n=0;n<=b.length;n++)
-				System.out.println(b[k][n]);		
+		for(int i=0;i<b.length;i++)
+			for(int j=0;j<=b.length;j++)
+				System.out.println(b[i][j]);		
 	}
 
 }
