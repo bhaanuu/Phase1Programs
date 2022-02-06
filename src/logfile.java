@@ -1,21 +1,12 @@
 import java.util.Scanner;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
-import java.util.Arrays;
-import java.util.List;
 
 
 public class logfile 
 {
-	int n1,n2,result;
-	char op;
 	public void Calculator() throws IOException
 	{
 		Scanner sc = new Scanner(System.in);
