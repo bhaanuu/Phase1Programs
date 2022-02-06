@@ -44,5 +44,5 @@ public class logfile
 		logfile f = new logfile();
 		f.Calculator();
 	}
+}
 		
-		}
